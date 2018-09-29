@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var vuehaute: UIView?
     var vuemoyenne: UIView?
     var vuebasse: UIView?
+    var etiquette: UILabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +33,12 @@ class ViewController: UIViewController {
         
         print(vuehaute?.frame)
         print(vuehaute!.frame)
+    
+        etiquette = UILabel(frame: CGRect(x: 20, y: 170, width: 30, height: 30))
+        //etiquette?.textAlignment = NSTextAlignment.center
+        etiquette?.textAlignment = .center // équivalent à au-dessus
+        
+        view.addSubview(etiquette)
         
     }
 
