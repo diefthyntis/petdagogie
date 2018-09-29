@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7084F92213D5D8100DDCF10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7084F91213D5D8100DDCF10 /* AppDelegate.swift */; };
+		E7084F97213D5D8100DDCF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7084F95213D5D8100DDCF10 /* Main.storyboard */; };
+		E7084F99213D5D8200DDCF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7084F98213D5D8200DDCF10 /* Assets.xcassets */; };
+		E7084F9C213D5D8200DDCF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7084F9A213D5D8200DDCF10 /* LaunchScreen.storyboard */; };
+		E7084FA7213D5D8300DDCF10 /* DeuxEcransTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7084FA6213D5D8300DDCF10 /* DeuxEcransTests.swift */; };
+		E7084FB2213D5D8300DDCF10 /* DeuxEcransUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7084FB1213D5D8300DDCF10 /* DeuxEcransUITests.swift */; };
+		E729F3CD213D76B40041E4BB /* AccueilController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729F3CC213D76B40041E4BB /* AccueilController.swift */; };
+		E729F3CF213D78A70041E4BB /* DeuxiemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729F3CE213D78A70041E4BB /* DeuxiemeController.swift */; };
+		E729F3D1213D79430041E4BB /* TroisiemeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E729F3D0213D79430041E4BB /* TroisiemeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7084FA3213D5D8300DDCF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7084F86213D5D8100DDCF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7084F8D213D5D8100DDCF10;
+			remoteInfo = DeuxEcrans;
+		};
+		E7084FAE213D5D8300DDCF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7084F86213D5D8100DDCF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7084F8D213D5D8100DDCF10;
+			remoteInfo = DeuxEcrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7084F8E213D5D8100DDCF10 /* DeuxEcrans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeuxEcrans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7084F91213D5D8100DDCF10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7084F96213D5D8100DDCF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7084F98213D5D8200DDCF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7084F9B213D5D8200DDCF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7084F9D213D5D8200DDCF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7084FA2213D5D8300DDCF10 /* DeuxEcransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeuxEcransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7084FA6213D5D8300DDCF10 /* DeuxEcransTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeuxEcransTests.swift; sourceTree = "<group>"; };
+		E7084FA8213D5D8300DDCF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7084FAD213D5D8300DDCF10 /* DeuxEcransUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeuxEcransUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7084FB1213D5D8300DDCF10 /* DeuxEcransUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeuxEcransUITests.swift; sourceTree = "<group>"; };
+		E7084FB3213D5D8300DDCF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E729F3CC213D76B40041E4BB /* AccueilController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccueilController.swift; sourceTree = "<group>"; };
+		E729F3CE213D78A70041E4BB /* DeuxiemeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeuxiemeController.swift; sourceTree = "<group>"; };
+		E729F3D0213D79430041E4BB /* TroisiemeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroisiemeController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7084F8B213D5D8100DDCF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7084F9F213D5D8300DDCF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7084FAA213D5D8300DDCF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7084F85213D5D8100DDCF10 = {
+			isa = PBXGroup;
+			children = (
+				E7084F90213D5D8100DDCF10 /* DeuxEcrans */,
+				E7084FA5213D5D8300DDCF10 /* DeuxEcransTests */,
+				E7084FB0213D5D8300DDCF10 /* DeuxEcransUITests */,
+				E7084F8F213D5D8100DDCF10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7084F8F213D5D8100DDCF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7084F8E213D5D8100DDCF10 /* DeuxEcrans.app */,
+				E7084FA2213D5D8300DDCF10 /* DeuxEcransTests.xctest */,
+				E7084FAD213D5D8300DDCF10 /* DeuxEcransUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7084F90213D5D8100DDCF10 /* DeuxEcrans */ = {
+			isa = PBXGroup;
+			children = (
+				E7084F91213D5D8100DDCF10 /* AppDelegate.swift */,
+				E7084F95213D5D8100DDCF10 /* Main.storyboard */,
+				E7084F98213D5D8200DDCF10 /* Assets.xcassets */,
+				E7084F9A213D5D8200DDCF10 /* LaunchScreen.storyboard */,
+				E7084F9D213D5D8200DDCF10 /* Info.plist */,
+				E729F3CC213D76B40041E4BB /* AccueilController.swift */,
+				E729F3CE213D78A70041E4BB /* DeuxiemeController.swift */,
+				E729F3D0213D79430041E4BB /* TroisiemeController.swift */,
+			);
+			path = DeuxEcrans;
+			sourceTree = "<group>";
+		};
+		E7084FA5213D5D8300DDCF10 /* DeuxEcransTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7084FA6213D5D8300DDCF10 /* DeuxEcransTests.swift */,
+				E7084FA8213D5D8300DDCF10 /* Info.plist */,
+			);
+			path = DeuxEcransTests;
+			sourceTree = "<group>";
+		};
+		E7084FB0213D5D8300DDCF10 /* DeuxEcransUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7084FB1213D5D8300DDCF10 /* DeuxEcransUITests.swift */,
+				E7084FB3213D5D8300DDCF10 /* Info.plist */,
+			);
+			path = DeuxEcransUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7084F8D213D5D8100DDCF10 /* DeuxEcrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7084FB6213D5D8300DDCF10 /* Build configuration list for PBXNativeTarget "DeuxEcrans" */;
+			buildPhases = (
+				E7084F8A213D5D8100DDCF10 /* Sources */,
+				E7084F8B213D5D8100DDCF10 /* Frameworks */,
+				E7084F8C213D5D8100DDCF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeuxEcrans;
+			productName = DeuxEcrans;
+			productReference = E7084F8E213D5D8100DDCF10 /* DeuxEcrans.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7084FA1213D5D8300DDCF10 /* DeuxEcransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7084FB9213D5D8300DDCF10 /* Build configuration list for PBXNativeTarget "DeuxEcransTests" */;
+			buildPhases = (
+				E7084F9E213D5D8300DDCF10 /* Sources */,
+				E7084F9F213D5D8300DDCF10 /* Frameworks */,
+				E7084FA0213D5D8300DDCF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7084FA4213D5D8300DDCF10 /* PBXTargetDependency */,
+			);
+			name = DeuxEcransTests;
+			productName = DeuxEcransTests;
+			productReference = E7084FA2213D5D8300DDCF10 /* DeuxEcransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7084FAC213D5D8300DDCF10 /* DeuxEcransUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7084FBC213D5D8300DDCF10 /* Build configuration list for PBXNativeTarget "DeuxEcransUITests" */;
+			buildPhases = (
+				E7084FA9213D5D8300DDCF10 /* Sources */,
+				E7084FAA213D5D8300DDCF10 /* Frameworks */,
+				E7084FAB213D5D8300DDCF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7084FAF213D5D8300DDCF10 /* PBXTargetDependency */,
+			);
+			name = DeuxEcransUITests;
+			productName = DeuxEcransUITests;
+			productReference = E7084FAD213D5D8300DDCF10 /* DeuxEcransUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7084F86213D5D8100DDCF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = diefthyntis;
+				TargetAttributes = {
+					E7084F8D213D5D8100DDCF10 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E7084FA1213D5D8300DDCF10 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E7084F8D213D5D8100DDCF10;
+					};
+					E7084FAC213D5D8300DDCF10 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E7084F8D213D5D8100DDCF10;
+					};
+				};
+			};
+			buildConfigurationList = E7084F89213D5D8100DDCF10 /* Build configuration list for PBXProject "DeuxEcrans" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7084F85213D5D8100DDCF10;
+			productRefGroup = E7084F8F213D5D8100DDCF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7084F8D213D5D8100DDCF10 /* DeuxEcrans */,
+				E7084FA1213D5D8300DDCF10 /* DeuxEcransTests */,
+				E7084FAC213D5D8300DDCF10 /* DeuxEcransUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7084F8C213D5D8100DDCF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7084F9C213D5D8200DDCF10 /* LaunchScreen.storyboard in Resources */,
+				E7084F99213D5D8200DDCF10 /* Assets.xcassets in Resources */,
+				E7084F97213D5D8100DDCF10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7084FA0213D5D8300DDCF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7084FAB213D5D8300DDCF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7084F8A213D5D8100DDCF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E729F3CD213D76B40041E4BB /* AccueilController.swift in Sources */,
+				E729F3D1213D79430041E4BB /* TroisiemeController.swift in Sources */,
+				E7084F92213D5D8100DDCF10 /* AppDelegate.swift in Sources */,
+				E729F3CF213D78A70041E4BB /* DeuxiemeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7084F9E213D5D8300DDCF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7084FA7213D5D8300DDCF10 /* DeuxEcransTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7084FA9213D5D8300DDCF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7084FB2213D5D8300DDCF10 /* DeuxEcransUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7084FA4213D5D8300DDCF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7084F8D213D5D8100DDCF10 /* DeuxEcrans */;
+			targetProxy = E7084FA3213D5D8300DDCF10 /* PBXContainerItemProxy */;
+		};
+		E7084FAF213D5D8300DDCF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7084F8D213D5D8100DDCF10 /* DeuxEcrans */;
+			targetProxy = E7084FAE213D5D8300DDCF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7084F95213D5D8100DDCF10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7084F96213D5D8100DDCF10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7084F9A213D5D8200DDCF10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7084F9B213D5D8200DDCF10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7084FB4213D5D8300DDCF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7084FB5213D5D8300DDCF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7084FB7213D5D8300DDCF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4UJNQKBHU;
+				INFOPLIST_FILE = DeuxEcrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diefthyntis.DeuxEcrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7084FB8213D5D8300DDCF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4UJNQKBHU;
+				INFOPLIST_FILE = DeuxEcrans/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diefthyntis.DeuxEcrans;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E7084FBA213D5D8300DDCF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4UJNQKBHU;
+				INFOPLIST_FILE = DeuxEcransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diefthyntis.DeuxEcransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeuxEcrans.app/DeuxEcrans";
+			};
+			name = Debug;
+		};
+		E7084FBB213D5D8300DDCF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4UJNQKBHU;
+				INFOPLIST_FILE = DeuxEcransTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diefthyntis.DeuxEcransTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeuxEcrans.app/DeuxEcrans";
+			};
+			name = Release;
+		};
+		E7084FBD213D5D8300DDCF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4UJNQKBHU;
+				INFOPLIST_FILE = DeuxEcransUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diefthyntis.DeuxEcransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeuxEcrans;
+			};
+			name = Debug;
+		};
+		E7084FBE213D5D8300DDCF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R4UJNQKBHU;
+				INFOPLIST_FILE = DeuxEcransUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diefthyntis.DeuxEcransUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeuxEcrans;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7084F89213D5D8100DDCF10 /* Build configuration list for PBXProject "DeuxEcrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7084FB4213D5D8300DDCF10 /* Debug */,
+				E7084FB5213D5D8300DDCF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7084FB6213D5D8300DDCF10 /* Build configuration list for PBXNativeTarget "DeuxEcrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7084FB7213D5D8300DDCF10 /* Debug */,
+				E7084FB8213D5D8300DDCF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7084FB9213D5D8300DDCF10 /* Build configuration list for PBXNativeTarget "DeuxEcransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7084FBA213D5D8300DDCF10 /* Debug */,
+				E7084FBB213D5D8300DDCF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7084FBC213D5D8300DDCF10 /* Build configuration list for PBXNativeTarget "DeuxEcransUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7084FBD213D5D8300DDCF10 /* Debug */,
+				E7084FBE213D5D8300DDCF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7084F86213D5D8100DDCF10 /* Project object */;
+}
