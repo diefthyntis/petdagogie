@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     var vuemoyenne: UIView?
     var vuebasse: UIView?
     var etiquette: UILabel?
+    var bouton: UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,16 +30,26 @@ class ViewController: UIViewController {
         
         vuebasse = UIView(frame: CGRect(x: 20, y: 140, width: 50, height: 70))
         vuebasse?.backgroundColor = UIColor(displayP3Red: 1, green: 0, blue: 1, alpha: 1)
-        view.addSubview(vuebasse!)
         
-        print(vuehaute?.frame)
+        view.addSubview(vuebasse!)
+
+        
+        print(vuehaute!.frame)
         print(vuehaute!.frame)
     
         etiquette = UILabel(frame: CGRect(x: 20, y: 170, width: 30, height: 30))
         //etiquette?.textAlignment = NSTextAlignment.center
         etiquette?.textAlignment = .center // équivalent à au-dessus
         
-        view.addSubview(etiquette)
+        view.addSubview(etiquette!)
+        let rectangle = CGRect(x: 100, y: 100, width: 60, height: 30)
+        bouton = UIButton(frame: rectangle)
+        bouton?.backgroundColor = UIColor.green
+        bouton?.setTitle("appuyer ici", for: UIControl.State.normal)
+        bouton?.tintColor = UIColor.white
+        bouton?.layer.borderColor = UIColor.white.cgColor
+        bouton?.layer.borderWidth = 5
+        view.addSubview(bouton!)
         
     }
 
